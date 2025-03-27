@@ -794,7 +794,7 @@ button:hover{
        padding: 5rem;
     }
     .all-limit{
-        max-height: calc(2 * (1550px + 1.5rem));
+        max-height: calc(2 * (2000px + 1.5rem));
     }
     .portfolio-popup-inner{
         width: 800px;
@@ -851,7 +851,7 @@ button:hover{
         gap: 3rem;
     }
     .all-limit{
-        max-height: calc(2 * (860px + 1.5rem)); 
+        max-height: calc(2 * (2900px + 1.5rem)); 
     }
     .contact-container{
         flex-direction: column;
@@ -1005,7 +1005,7 @@ button:hover{
          gap: 2rem;
      }
      .all-limit{
-        max-height: calc(2 * (845px + 1.5rem)); 
+        max-height: calc(2 * (3000px + 1.5rem)); 
     }
     .portfolio-popup-content{
         flex-direction: column;
@@ -1025,53 +1025,7 @@ button:hover{
     }  
 }
 
-@media (max-width: 617px){
-    .home-content{
-        margin: 5rem;
-    }
-    .home-content::before{
-        height: 250px;
-        width: 250px;
-        left: 0%;
-        top: 65%;
-    }
-    @keyframes object1{
-        50%{
-            left: -0%;
-            top: 60%;
-        }
-    }
-    .home-content::after{
-        left: 65%;
-        top: 12%;
-        z-index: 2;
-    }
-    @keyframes object2{
-        50%{
-            left: 65%;
-            top: 15%;
-        }
-    }
-    .skills-content{
-        text-align: center;
-    }
-    .services-container .services-box{
-        max-width: 350px; 
-    }
-    .services-modal-content{
-        width: 500px;
-    }
-    .work-container{
-        grid-template-columns: repeat(1,322px);
-         gap: 3rem;
-    }
-     .all-limit{
-         max-height: calc(2 * (1720px + 1.5rem)); 
-    }
-    .portfolio-popup-inner{
-        width: 500px;
-    }
-}
+
 
 @media (max-width: 450px){
     html{
@@ -1120,7 +1074,7 @@ button:hover{
         width: 400px;
     }
     .all-limit{
-        max-height: calc(2 * (1680px + 1.5rem)); 
+        max-height: calc(2 * (5500px + 1.5rem)); 
     }
     .contact-content, .form-section{
         width: 400px; 
@@ -1167,7 +1121,7 @@ button:hover{
         grid-template-columns: 300px;
     }
     .all-limit{
-        max-height: calc(2 * (1625px + 1.5rem));
+        max-height: calc(2 * (5500px + 1.5rem));
     }
     .work-item{
         font-size: 1.6rem;
