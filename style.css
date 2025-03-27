@@ -1025,7 +1025,53 @@ button:hover{
     }  
 }
 
-
+@media (max-width: 617px){
+    .home-content{
+        margin: 5rem;
+    }
+    .home-content::before{
+        height: 250px;
+        width: 250px;
+        left: 0%;
+        top: 65%;
+    }
+    @keyframes object1{
+        50%{
+            left: -0%;
+            top: 60%;
+        }
+    }
+    .home-content::after{
+        left: 65%;
+        top: 12%;
+        z-index: 2;
+    }
+    @keyframes object2{
+        50%{
+            left: 65%;
+            top: 15%;
+        }
+    }
+    .skills-content{
+        text-align: center;
+    }
+    .services-container .services-box{
+        max-width: 350px; 
+    }
+    .services-modal-content{
+        width: 500px;
+    }
+    .work-container{
+        grid-template-columns: repeat(1,322px);
+         gap: 3rem;
+    }
+     .all-limit{
+         max-height: calc(2 * (1720px + 1.5rem)); 
+    }
+    .portfolio-popup-inner{
+        width: 500px;
+    }
+}
 
 @media (max-width: 450px){
     html{
